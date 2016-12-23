@@ -30,8 +30,38 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="7dExkrPz3SR">
-    <property role="TrG5h" value="Blah" />
+  <node concept="1TIwiD" id="7dExkrP_DAj">
+    <property role="TrG5h" value="Country" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAk">
+    <property role="TrG5h" value="Family" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAl">
+    <property role="TrG5h" value="Parent" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAm">
+    <property role="TrG5h" value="Child" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAn">
+    <property role="TrG5h" value="Neighborhood" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAo">
+    <property role="TrG5h" value="City" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAp">
+    <property role="TrG5h" value="School" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAq">
+    <property role="TrG5h" value="Company" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAr">
+    <property role="TrG5h" value="Member" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAs">
+    <property role="TrG5h" value="NamedElement" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrP_DAt">
+    <property role="TrG5h" value="Service" />
   </node>
 </model>
 
