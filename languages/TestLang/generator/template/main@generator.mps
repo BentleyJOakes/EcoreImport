@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:367c4334-8c81-4b4f-8386-b1d261a7da66(TestLang.generator.template.main@generator)">
+<model ref="r:367c4334-8c81-4b4f-8386-b1d261a7da66(ImportLang.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="9e7b0093-181e-4e8d-b998-5a48a66bfffe" name="TestLang" version="-1" />

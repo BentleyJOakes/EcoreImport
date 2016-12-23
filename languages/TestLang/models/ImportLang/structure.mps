@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5b2ab5e5-c3d2-43fc-b855-e82074410c9b(TestLang.structure)">
+<model ref="r:5b2ab5e5-c3d2-43fc-b855-e82074410c9b(ImportLang.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
@@ -14,6 +14,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
       </concept>
     </language>
@@ -26,7 +27,11 @@
   <node concept="1TIwiD" id="5UUx$ZlNqeL">
     <property role="EcuMT" value="6825915862680970161" />
     <property role="TrG5h" value="TestConcept" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="7dExkrPz3SR">
+    <property role="TrG5h" value="Blah" />
   </node>
 </model>
 
