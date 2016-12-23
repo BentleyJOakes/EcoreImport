@@ -13,6 +13,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
@@ -30,37 +31,37 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAj">
+  <node concept="1TIwiD" id="1l44tumrN$N">
     <property role="TrG5h" value="Country" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAk">
+  <node concept="1TIwiD" id="1l44tumrN$O">
     <property role="TrG5h" value="Family" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAl">
+  <node concept="1TIwiD" id="1l44tumrN$P">
     <property role="TrG5h" value="Parent" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAm">
+  <node concept="1TIwiD" id="1l44tumrN$Q">
     <property role="TrG5h" value="Child" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAn">
+  <node concept="1TIwiD" id="1l44tumrN$R">
     <property role="TrG5h" value="Neighborhood" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAo">
+  <node concept="1TIwiD" id="1l44tumrN$S">
     <property role="TrG5h" value="City" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAp">
+  <node concept="1TIwiD" id="1l44tumrN$T">
     <property role="TrG5h" value="School" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAq">
+  <node concept="1TIwiD" id="1l44tumrN$U">
     <property role="TrG5h" value="Company" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAr">
+  <node concept="PlHQZ" id="1l44tumrN$V">
     <property role="TrG5h" value="Member" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAs">
+  <node concept="PlHQZ" id="1l44tumrN$W">
     <property role="TrG5h" value="NamedElement" />
   </node>
-  <node concept="1TIwiD" id="7dExkrP_DAt">
+  <node concept="1TIwiD" id="1l44tumrN$X">
     <property role="TrG5h" value="Service" />
   </node>
 </model>
