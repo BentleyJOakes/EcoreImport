@@ -30,6 +30,7 @@
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <property id="1213273179528" name="description" index="1WHSii" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
@@ -282,9 +283,15 @@
   <node concept="sE7Ow" id="5UUx$ZlNChF">
     <property role="TrG5h" value="ImportAction" />
     <property role="2uzpH1" value="Import EMF" />
+    <property role="1WHSii" value="Import an EMF metamodel into this model" />
     <node concept="tnohg" id="5UUx$ZlNChG" role="tncku">
       <node concept="3clFbS" id="5UUx$ZlNChH" role="2VODD2">
         <node concept="3clFbH" id="5UUx$ZlNIxG" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFPAZe" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFPAZg" role="3SKWNk">
+            <property role="3SKdUp" value="start the file import" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="5UUx$ZlNIAx" role="3cqZAp">
           <node concept="3cpWsn" id="5UUx$ZlNIAy" role="3cpWs9">
             <property role="TrG5h" value="fileImporter" />
@@ -314,7 +321,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5UUx$ZlNIy6" role="3cqZAp" />
       </node>
     </node>
     <node concept="2S4$dB" id="5UUx$ZlNIwX" role="1NuT2Z">
@@ -341,6 +347,16 @@
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="5UUx$ZlNJo2" role="3clF47">
         <node concept="3clFbH" id="5UUx$ZlNJMf" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFO50H" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFO50J" role="3SKWNk">
+            <property role="3SKdUp" value="a hardcoded filename for rapid testing of " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="vxNERFO5pk" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFO5pm" role="3SKWNk">
+            <property role="3SKdUp" value="model import" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="7dExkrP$d9e" role="3cqZAp">
           <node concept="3cpWsn" id="7dExkrP$d9h" role="3cpWs9">
             <property role="TrG5h" value="hardCodedFilename" />
@@ -354,6 +370,11 @@
         <node concept="3SKdUt" id="7dExkrP$cjz" role="3cqZAp">
           <node concept="3SKdUq" id="7dExkrP$cj$" role="3SKWNk">
             <property role="3SKdUp" value="Find the location of the model to pick the ECore file" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="vxNERFO5LZ" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFO5M1" role="3SKWNk">
+            <property role="3SKdUp" value="This is the starting location for the file picker" />
           </node>
         </node>
         <node concept="3cpWs8" id="7dExkrPzynK" role="3cqZAp">
@@ -425,10 +446,19 @@
             <node concept="3uibUv" id="7dExkrP$y27" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="10Nm6u" id="7dExkrP$y8U" role="33vP2m" />
           </node>
         </node>
         <node concept="3clFbH" id="7dExkrP$xGy" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFO6c8" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFO6ca" role="3SKWNk">
+            <property role="3SKdUp" value="pick the filename if it exists" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="vxNERFO6u2" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFO6u4" role="3SKWNk">
+            <property role="3SKdUp" value="if not, use the file picker" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="7dExkrP$do5" role="3cqZAp">
           <node concept="3clFbS" id="7dExkrP$do7" role="3clFbx">
             <node concept="3clFbF" id="7dExkrP$d_M" role="3cqZAp">
@@ -472,6 +502,16 @@
           </node>
         </node>
         <node concept="3clFbH" id="7dExkrP$hRM" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFO6QR" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFO6QT" role="3SKWNk">
+            <property role="3SKdUp" value="if the user exits from the file picker" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="vxNERFO78T" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFO78V" role="3SKWNk">
+            <property role="3SKdUp" value="exit" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="7dExkrP$i3b" role="3cqZAp">
           <node concept="3clFbS" id="7dExkrP$i3d" role="3clFbx">
             <node concept="3cpWs6" id="7dExkrP$jda" role="3cqZAp" />
@@ -520,6 +560,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="vxNERFO7iH" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="7dExkrP$u1a" role="3clFbw">
             <node concept="37vLTw" id="7dExkrP$t$o" role="2Oq$k0">
@@ -563,7 +604,6 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="7dExkrPzdVZ" role="3clF47">
-        <node concept="3clFbH" id="7dExkrPzeJr" role="3cqZAp" />
         <node concept="3cpWs8" id="7dExkrPz5co" role="3cqZAp">
           <node concept="3cpWsn" id="7dExkrPz5cp" role="3cpWs9">
             <property role="TrG5h" value="chooser" />
@@ -631,9 +671,7 @@
         <node concept="17QB3L" id="7dExkrPzPeZ" role="1tU5fm" />
       </node>
     </node>
-    <node concept="2tJIrI" id="7dExkrP$cHV" role="jymVt" />
-    <node concept="2tJIrI" id="7dExkrP$ctU" role="jymVt" />
-    <node concept="2tJIrI" id="7dExkrPycr9" role="jymVt" />
+    <node concept="2tJIrI" id="vxNERFO7ne" role="jymVt" />
     <node concept="3clFb_" id="7dExkrPyc_u" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="print" />
@@ -751,6 +789,16 @@
           </node>
         </node>
         <node concept="3clFbH" id="7dExkrP$Dwi" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFObNz" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFObN_" role="3SKWNk">
+            <property role="3SKdUp" value="start parsing the file," />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="vxNERFOddw" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOddy" role="3SKWNk">
+            <property role="3SKdUp" value="and get an iterator to the model" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="7dExkrP$DLK" role="3cqZAp">
           <node concept="3cpWsn" id="7dExkrP$DLL" role="3cpWs9">
             <property role="TrG5h" value="parser" />
@@ -769,7 +817,7 @@
         </node>
         <node concept="3cpWs8" id="1l44tumqzgA" role="3cqZAp">
           <node concept="3cpWsn" id="1l44tumqzgD" role="3cpWs9">
-            <property role="TrG5h" value="currElement" />
+            <property role="TrG5h" value="elementIterator" />
             <node concept="uOF1S" id="1l44tumqzgy" role="1tU5fm">
               <node concept="3uibUv" id="1l44tumqzlB" role="uOL27">
                 <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
@@ -786,8 +834,19 @@
           </node>
         </node>
         <node concept="3clFbH" id="7dExkrP_uVu" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFOeBx" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOeBz" role="3SKWNk">
+            <property role="3SKdUp" value="iterate through the elements" />
+          </node>
+        </node>
         <node concept="2$JKZl" id="7dExkrP_v4U" role="3cqZAp">
           <node concept="3clFbS" id="7dExkrP_v4W" role="2LFqv$">
+            <node concept="3clFbH" id="vxNERFOfci" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOhtb" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOhtd" role="3SKWNk">
+                <property role="3SKdUp" value="get the element" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="7dExkrP_vRR" role="3cqZAp">
               <node concept="3cpWsn" id="7dExkrP_vRS" role="3cpWs9">
                 <property role="TrG5h" value="curr" />
@@ -796,10 +855,16 @@
                 </node>
                 <node concept="2OqwBi" id="7dExkrP_wd0" role="33vP2m">
                   <node concept="37vLTw" id="1l44tumqOkE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1l44tumqzgD" resolve="currElement" />
+                    <ref role="3cqZAo" node="1l44tumqzgD" resolve="elementIterator" />
                   </node>
                   <node concept="v1n4t" id="7dExkrP_wxZ" role="2OqNvi" />
                 </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="vxNERFOpFE" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOqoG" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOqoI" role="3SKWNk">
+                <property role="3SKdUp" value="get the name of the element" />
               </node>
             </node>
             <node concept="3cpWs8" id="2Ttkg9nW9q$" role="3cqZAp">
@@ -819,6 +884,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="vxNERFOfJ_" role="3cqZAp" />
             <node concept="3SKdUt" id="1l44tumtw3t" role="3cqZAp">
               <node concept="3SKdUq" id="1l44tumtw3u" role="3SKWNk">
                 <property role="3SKdUp" value="Skip Named Elements, they are replaced by the INamedConcept interface" />
@@ -841,6 +907,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="1l44tumu5vU" role="3cqZAp" />
+            <node concept="3clFbH" id="vxNERFOrvm" role="3cqZAp" />
             <node concept="3cpWs8" id="1l44tumryAa" role="3cqZAp">
               <node concept="3cpWsn" id="1l44tumryAd" role="3cpWs9">
                 <property role="TrG5h" value="isAbstract" />
@@ -848,6 +915,11 @@
                 <node concept="3clFbT" id="1l44tumryF4" role="33vP2m">
                   <property role="3clFbU" value="false" />
                 </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="vxNERFOtVh" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOtVj" role="3SKWNk">
+                <property role="3SKdUp" value="TODO: Switch to a better way of finding the abstract attribute" />
               </node>
             </node>
             <node concept="2Gpval" id="1l44tumrhCp" role="3cqZAp">
@@ -863,7 +935,6 @@
                 </node>
               </node>
               <node concept="3clFbS" id="1l44tumrhCv" role="2LFqv$">
-                <node concept="3clFbH" id="1l44tumrySh" role="3cqZAp" />
                 <node concept="3clFbJ" id="1l44tumrz0V" role="3cqZAp">
                   <node concept="3clFbS" id="1l44tumrz0X" role="3clFbx">
                     <node concept="3clFbF" id="1l44tumrGW6" role="3cqZAp">
@@ -893,7 +964,34 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="vxNERFOzBM" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOAaS" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOAaU" role="3SKWNk">
+                <property role="3SKdUp" value="store whether the element is abstract or not" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="1l44tumslCz" role="3cqZAp">
+              <node concept="2OqwBi" id="1l44tumsmFO" role="3clFbG">
+                <node concept="37vLTw" id="1l44tumslCx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1l44tumskTn" resolve="isAbstractMap" />
+                </node>
+                <node concept="liA8E" id="1l44tumsnKZ" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~HashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                  <node concept="37vLTw" id="vxNERFM0T8" role="37wK5m">
+                    <ref role="3cqZAo" node="2Ttkg9nW9qB" resolve="name" />
+                  </node>
+                  <node concept="37vLTw" id="1l44tumsrkT" role="37wK5m">
+                    <ref role="3cqZAo" node="1l44tumryAd" resolve="isAbstract" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbH" id="1l44tumrhn6" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOvaM" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOvaO" role="3SKWNk">
+                <property role="3SKdUp" value="create different declarations if the ekement is abstract or not" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="1l44tumrHRa" role="3cqZAp">
               <node concept="3clFbS" id="1l44tumrHRc" role="3clFbx">
                 <node concept="3cpWs8" id="4C8cDtEP6Sz" role="3cqZAp">
@@ -950,6 +1048,7 @@
               </node>
               <node concept="9aQIb" id="1l44tumrI90" role="9aQIa">
                 <node concept="3clFbS" id="1l44tumrI91" role="9aQI4">
+                  <node concept="3clFbH" id="vxNERFOvI$" role="3cqZAp" />
                   <node concept="3cpWs8" id="4C8cDtEP9UW" role="3cqZAp">
                     <node concept="3cpWsn" id="4C8cDtEP9UZ" role="3cpWs9">
                       <property role="TrG5h" value="cdCurrNode" />
@@ -981,6 +1080,11 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3SKdUt" id="vxNERFOwex" role="3cqZAp">
+                    <node concept="3SKdUq" id="vxNERFOwez" role="3SKWNk">
+                      <property role="3SKdUp" value="make the concepts rootable" />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="4C8cDtEPcda" role="3cqZAp">
                     <node concept="37vLTI" id="4C8cDtEPdr1" role="3clFbG">
                       <node concept="3clFbT" id="4C8cDtEPdyS" role="37vLTx">
@@ -996,6 +1100,7 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="vxNERFOwrV" role="3cqZAp" />
                   <node concept="3clFbF" id="vxNERFLTMa" role="3cqZAp">
                     <node concept="2OqwBi" id="vxNERFLUzH" role="3clFbG">
                       <node concept="37vLTw" id="vxNERFLTM8" role="2Oq$k0">
@@ -1016,31 +1121,20 @@
               </node>
             </node>
             <node concept="3clFbH" id="4C8cDtEOARs" role="3cqZAp" />
-            <node concept="3clFbF" id="1l44tumslCz" role="3cqZAp">
-              <node concept="2OqwBi" id="1l44tumsmFO" role="3clFbG">
-                <node concept="37vLTw" id="1l44tumslCx" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1l44tumskTn" resolve="isAbstractMap" />
-                </node>
-                <node concept="liA8E" id="1l44tumsnKZ" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~HashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
-                  <node concept="37vLTw" id="vxNERFM0T8" role="37wK5m">
-                    <ref role="3cqZAo" node="2Ttkg9nW9qB" resolve="name" />
-                  </node>
-                  <node concept="37vLTw" id="1l44tumsrkT" role="37wK5m">
-                    <ref role="3cqZAo" node="1l44tumryAd" resolve="isAbstract" />
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
           <node concept="2OqwBi" id="7dExkrP_vqn" role="2$JKZa">
             <node concept="37vLTw" id="1l44tumqOgd" role="2Oq$k0">
-              <ref role="3cqZAo" node="1l44tumqzgD" resolve="currElement" />
+              <ref role="3cqZAo" node="1l44tumqzgD" resolve="elementIterator" />
             </node>
             <node concept="v0PNk" id="7dExkrP_vJw" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbH" id="7dExkrP$DwT" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFOBw_" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOBwB" role="3SKWNk">
+            <property role="3SKdUp" value="restart the iteration" />
+          </node>
+        </node>
         <node concept="3clFbF" id="1l44tumr1RV" role="3cqZAp">
           <node concept="37vLTI" id="1l44tumr2V$" role="3clFbG">
             <node concept="2OqwBi" id="1l44tumr3o1" role="37vLTx">
@@ -1052,13 +1146,18 @@
               </node>
             </node>
             <node concept="37vLTw" id="1l44tumr1RT" role="37vLTJ">
-              <ref role="3cqZAo" node="1l44tumqzgD" resolve="currElement" />
+              <ref role="3cqZAo" node="1l44tumqzgD" resolve="elementIterator" />
             </node>
           </node>
         </node>
         <node concept="2$JKZl" id="1l44tumr3Fk" role="3cqZAp">
           <node concept="3clFbS" id="1l44tumr3Fm" role="2LFqv$">
             <node concept="3clFbH" id="1l44tumr8cQ" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOCpc" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOCpe" role="3SKWNk">
+                <property role="3SKdUp" value="get the element and the name" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="1l44tumr8_q" role="3cqZAp">
               <node concept="3cpWsn" id="1l44tumr8_r" role="3cpWs9">
                 <property role="TrG5h" value="curr" />
@@ -1067,7 +1166,7 @@
                 </node>
                 <node concept="2OqwBi" id="1l44tumr964" role="33vP2m">
                   <node concept="37vLTw" id="1l44tumr8DR" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1l44tumqzgD" resolve="currElement" />
+                    <ref role="3cqZAo" node="1l44tumqzgD" resolve="elementIterator" />
                   </node>
                   <node concept="v1n4t" id="1l44tumr9gN" role="2OqNvi" />
                 </node>
@@ -1113,6 +1212,16 @@
               </node>
             </node>
             <node concept="3clFbH" id="1l44tums5bD" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOCIN" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOCIP" role="3SKWNk">
+                <property role="3SKdUp" value="add supertypes and attributes to the element" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="vxNERFOD4u" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOD4w" role="3SKWNk">
+                <property role="3SKdUp" value="this must be done after the concepts are all created" />
+              </node>
+            </node>
             <node concept="3clFbF" id="2Ttkg9nWcvu" role="3cqZAp">
               <node concept="1rXfSq" id="2Ttkg9nWcvs" role="3clFbG">
                 <ref role="37wK5l" node="1l44tumsiY9" resolve="addSuperTypes" />
@@ -1126,7 +1235,7 @@
             </node>
             <node concept="3clFbF" id="2Ttkg9nWkZs" role="3cqZAp">
               <node concept="1rXfSq" id="2Ttkg9nWkZq" role="3clFbG">
-                <ref role="37wK5l" node="2Ttkg9nWjop" resolve="addAttributes" />
+                <ref role="37wK5l" node="2Ttkg9nWjop" resolve="addProperties" />
                 <node concept="37vLTw" id="2Ttkg9nWlVx" role="37wK5m">
                   <ref role="3cqZAo" node="1l44tumr8_r" resolve="curr" />
                 </node>
@@ -1138,7 +1247,7 @@
           </node>
           <node concept="2OqwBi" id="1l44tumr4gj" role="2$JKZa">
             <node concept="37vLTw" id="1l44tumr3Ls" role="2Oq$k0">
-              <ref role="3cqZAo" node="1l44tumqzgD" resolve="currElement" />
+              <ref role="3cqZAo" node="1l44tumqzgD" resolve="elementIterator" />
             </node>
             <node concept="v0PNk" id="1l44tumr4_P" role="2OqNvi" />
           </node>
@@ -1159,6 +1268,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1l44tumsizM" role="jymVt" />
+    <node concept="2tJIrI" id="vxNERFODbl" role="jymVt" />
     <node concept="3clFb_" id="1l44tumsiY9" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="addSuperTypes" />
@@ -1167,6 +1277,11 @@
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="1l44tumsiYc" role="3clF47">
         <node concept="3clFbH" id="5lAUolerqwp" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFOGgb" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOGgd" role="3SKWNk">
+            <property role="3SKdUp" value="get the concept node from the nodeMap" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="1l44tums5sw" role="3cqZAp">
           <node concept="3cpWsn" id="1l44tums5sz" role="3cpWs9">
             <property role="TrG5h" value="currNode" />
@@ -1187,6 +1302,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="2Ttkg9nVOOz" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFOIm1" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOIm3" role="3SKWNk">
+            <property role="3SKdUp" value="figure out if the concept is abstract or not" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="2Ttkg9nVPvU" role="3cqZAp">
           <node concept="3cpWsn" id="2Ttkg9nVPvX" role="3cpWs9">
             <property role="TrG5h" value="isAbstract" />
@@ -1242,7 +1362,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="5lAUolerqBi" role="3cqZAp" />
-        <node concept="3clFbH" id="5lAUolerqId" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFOJtC" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOJtE" role="3SKWNk">
+            <property role="3SKdUp" value="get the supertypes for the element" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="1l44tums1_r" role="3cqZAp">
           <node concept="3cpWsn" id="1l44tums1_u" role="3cpWs9">
             <property role="TrG5h" value="superTypesStr" />
@@ -1259,6 +1383,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="1l44tumsa0N" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFOLxV" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOLxX" role="3SKWNk">
+            <property role="3SKdUp" value="exit if there are no supertypes" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="5lAUolepF2M" role="3cqZAp">
           <node concept="3clFbS" id="5lAUolepF2O" role="3clFbx">
             <node concept="3cpWs6" id="5lAUolepH03" role="3cqZAp" />
@@ -1271,6 +1400,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="1l44tumsabd" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFOOA5" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFOOA7" role="3SKWNk">
+            <property role="3SKdUp" value="split and iterate the supertype names" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="1l44tumsbn3" role="3cqZAp">
           <node concept="3cpWsn" id="1l44tumsbn6" role="3cpWs9">
             <property role="TrG5h" value="superTypes" />
@@ -1290,7 +1424,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1l44tumsih8" role="3cqZAp" />
         <node concept="2Gpval" id="1l44tumsixL" role="3cqZAp">
           <node concept="2GrKxI" id="1l44tumsixN" role="2Gsz3X">
             <property role="TrG5h" value="superType" />
@@ -1300,6 +1433,11 @@
           </node>
           <node concept="3clFbS" id="1l44tumsixR" role="2LFqv$">
             <node concept="3clFbH" id="1l44tumsrPg" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOQfP" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOQfR" role="3SKWNk">
+                <property role="3SKdUp" value="remove the prefix from the name" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="1l44tums_Sv" role="3cqZAp">
               <node concept="3cpWsn" id="1l44tums_Sy" role="3cpWs9">
                 <property role="TrG5h" value="st" />
@@ -1321,7 +1459,11 @@
               </node>
             </node>
             <node concept="3clFbH" id="1l44tumt7xF" role="3cqZAp" />
-            <node concept="3clFbH" id="rMSKdR5WHc" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOQTJ" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOQTL" role="3SKWNk">
+                <property role="3SKdUp" value="get the supertype as a concept node" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="rMSKdR5X64" role="3cqZAp">
               <node concept="3cpWsn" id="rMSKdR5X67" role="3cpWs9">
                 <property role="TrG5h" value="otherNode" />
@@ -1331,6 +1473,16 @@
               </node>
             </node>
             <node concept="3clFbH" id="rMSKdR5X8j" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOS5y" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOS5$" role="3SKWNk">
+                <property role="3SKdUp" value="get the concept node for a NamedElement if needed" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="vxNERFOThp" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOThr" role="3SKWNk">
+                <property role="3SKdUp" value="otherwise get it from the nodeMap" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="rMSKdR5XkT" role="3cqZAp">
               <node concept="3clFbS" id="rMSKdR5XkV" role="3clFbx">
                 <node concept="3clFbF" id="rMSKdR5Zc0" role="3cqZAp">
@@ -1382,6 +1534,11 @@
               </node>
             </node>
             <node concept="3clFbH" id="rMSKdR5WLp" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOUtk" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOUtm" role="3SKWNk">
+                <property role="3SKdUp" value="throw an error if the otherNode was not found" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="2Ttkg9nVbnV" role="3cqZAp">
               <node concept="3clFbS" id="2Ttkg9nVbnX" role="3clFbx">
                 <node concept="3clFbF" id="2Ttkg9nVu3V" role="3cqZAp">
@@ -1406,7 +1563,11 @@
               </node>
             </node>
             <node concept="3clFbH" id="rMSKdR63$o" role="3cqZAp" />
-            <node concept="3clFbH" id="rMSKdR5WNx" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFOV7l" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFOV7n" role="3SKWNk">
+                <property role="3SKdUp" value="check if the supertype node is abstract or not" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="2Ttkg9nVvmq" role="3cqZAp">
               <node concept="3cpWsn" id="2Ttkg9nVvmt" role="3cpWs9">
                 <property role="TrG5h" value="otherNodeisAbstract" />
@@ -1416,7 +1577,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="rMSKdR6br9" role="3cqZAp" />
             <node concept="3clFbJ" id="rMSKdR6bFP" role="3cqZAp">
               <node concept="3clFbS" id="rMSKdR6bFR" role="3clFbx">
                 <node concept="3clFbF" id="rMSKdR6E2e" role="3cqZAp">
@@ -1458,6 +1618,11 @@
             <node concept="3clFbH" id="rMSKdR03$6" role="3cqZAp" />
             <node concept="3clFbJ" id="2Ttkg9nVyyF" role="3cqZAp">
               <node concept="3clFbS" id="2Ttkg9nVyyH" role="3clFbx">
+                <node concept="3SKdUt" id="vxNERFOXp6" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFOXp8" role="3SKWNk">
+                    <property role="3SKdUp" value="if the supertype is abstract, it is an interface" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="rMSKdQZPXB" role="3cqZAp">
                   <node concept="3cpWsn" id="rMSKdQZPXE" role="3cpWs9">
                     <property role="TrG5h" value="otherIncf" />
@@ -1541,6 +1706,7 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="vxNERFOXsO" role="3cqZAp" />
                   </node>
                   <node concept="37vLTw" id="rMSKdR4Yq6" role="3clFbw">
                     <ref role="3cqZAo" node="2Ttkg9nVPvX" resolve="isAbstract" />
@@ -1588,6 +1754,11 @@
               </node>
               <node concept="9aQIb" id="2Ttkg9nVAmI" role="9aQIa">
                 <node concept="3clFbS" id="2Ttkg9nVAmJ" role="9aQI4">
+                  <node concept="3SKdUt" id="vxNERFOXBq" role="3cqZAp">
+                    <node concept="3SKdUq" id="vxNERFOXBs" role="3SKWNk">
+                      <property role="3SKdUp" value="otherwise, extend the currNode" />
+                    </node>
+                  </node>
                   <node concept="3cpWs8" id="rMSKdR6LF9" role="3cqZAp">
                     <node concept="3cpWsn" id="rMSKdR6LFc" role="3cpWs9">
                       <property role="TrG5h" value="cdCurrNode" />
@@ -1622,12 +1793,8 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="rMSKdR63HQ" role="3cqZAp" />
-            <node concept="3clFbH" id="rMSKdR63Kq" role="3cqZAp" />
-            <node concept="3clFbH" id="rMSKdR63Ds" role="3cqZAp" />
           </node>
         </node>
-        <node concept="3clFbH" id="1l44tumsbeP" role="3cqZAp" />
       </node>
       <node concept="3Tm1VV" id="1l44tumsiNV" role="1B3o_S" />
       <node concept="3cqZAl" id="1l44tumsiY7" role="3clF45" />
@@ -1645,12 +1812,17 @@
     <node concept="2tJIrI" id="2Ttkg9nWiX6" role="jymVt" />
     <node concept="3clFb_" id="2Ttkg9nWjop" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="addAttributes" />
+      <property role="TrG5h" value="addProperties" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="2Ttkg9nWjos" role="3clF47">
         <node concept="3clFbH" id="2Ttkg9nWmD0" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFP0pw" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFP0py" role="3SKWNk">
+            <property role="3SKdUp" value="get the current concept node from the node map" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="2Ttkg9nXmZZ" role="3cqZAp">
           <node concept="3cpWsn" id="2Ttkg9nXn02" role="3cpWs9">
             <property role="TrG5h" value="currNode" />
@@ -1671,6 +1843,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="2Ttkg9nXmJ0" role="3cqZAp" />
+        <node concept="3SKdUt" id="vxNERFP1IF" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFP1IH" role="3SKWNk">
+            <property role="3SKdUp" value="iterate through the children in the element" />
+          </node>
+        </node>
         <node concept="2Gpval" id="2Ttkg9nWmTV" role="3cqZAp">
           <node concept="2GrKxI" id="2Ttkg9nWmTX" role="2Gsz3X">
             <property role="TrG5h" value="child" />
@@ -1685,6 +1862,11 @@
           </node>
           <node concept="3clFbS" id="2Ttkg9nWmU1" role="2LFqv$">
             <node concept="3clFbH" id="2Ttkg9nXpTR" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFP3AG" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFP3AI" role="3SKWNk">
+                <property role="3SKdUp" value="get the type of the child" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="4C8cDtEMH$m" role="3cqZAp">
               <node concept="3cpWsn" id="4C8cDtEMH$p" role="3cpWs9">
                 <property role="TrG5h" value="typeAttributeStr" />
@@ -1720,6 +1902,11 @@
               </node>
             </node>
             <node concept="3clFbH" id="4C8cDtELDWD" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFP53p" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFP53r" role="3SKWNk">
+                <property role="3SKdUp" value="see if the attribute is a property or a reference" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="4C8cDtELNIj" role="3cqZAp">
               <node concept="3clFbS" id="4C8cDtELNIl" role="3clFbx">
                 <node concept="3clFbH" id="4C8cDtELNIk" role="3cqZAp" />
@@ -1783,6 +1970,11 @@
               </node>
             </node>
             <node concept="3clFbH" id="4C8cDtEM1GK" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFP6r1" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFP6r3" role="3SKWNk">
+                <property role="3SKdUp" value="throw an error if we can't determine the type" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="4C8cDtEM1Sz" role="3cqZAp">
               <node concept="3clFbS" id="4C8cDtEM1S_" role="3clFbx">
                 <node concept="3clFbF" id="4C8cDtEM3kX" role="3cqZAp">
@@ -1818,6 +2010,11 @@
               </node>
             </node>
             <node concept="3clFbH" id="2Ttkg9nXvBU" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFP8$T" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFP8$V" role="3SKWNk">
+                <property role="3SKdUp" value="get the name of the property" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="4C8cDtEMQK2" role="3cqZAp">
               <node concept="3cpWsn" id="4C8cDtEMQK5" role="3cpWs9">
                 <property role="TrG5h" value="propName" />
@@ -1834,10 +2031,18 @@
               </node>
             </node>
             <node concept="3clFbH" id="rMSKdR08PP" role="3cqZAp" />
-            <node concept="3clFbH" id="rMSKdR08S6" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFPc5_" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFPc5B" role="3SKWNk">
+                <property role="3SKdUp" value="add properties to the concept" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="2Ttkg9nX$8s" role="3cqZAp">
               <node concept="3clFbS" id="2Ttkg9nX$8u" role="3clFbx">
-                <node concept="3clFbH" id="4C8cDtEMAVS" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPcS4" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPcS6" role="3SKWNk">
+                    <property role="3SKdUp" value="get the type of the attribute" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="4C8cDtEMJC$" role="3cqZAp">
                   <node concept="3cpWsn" id="4C8cDtEMJCB" role="3cpWs9">
                     <property role="TrG5h" value="eTypeAttrString" />
@@ -1851,6 +2056,12 @@
                         <property role="Xl_RC" value="eType" />
                       </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="vxNERFPduE" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPeNs" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPeNu" role="3SKWNk">
+                    <property role="3SKdUp" value="check if the attribute is a string" />
                   </node>
                 </node>
                 <node concept="3cpWs8" id="4C8cDtEMB78" role="3cqZAp">
@@ -1879,6 +2090,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="4C8cDtEMAWv" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPg8r" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPg8t" role="3SKWNk">
+                    <property role="3SKdUp" value="create the property" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="4C8cDtEN9tB" role="3cqZAp">
                   <node concept="3cpWsn" id="4C8cDtEN9tE" role="3cpWs9">
                     <property role="TrG5h" value="newProperty" />
@@ -1981,9 +2197,19 @@
               </node>
             </node>
             <node concept="3clFbH" id="rMSKdR08pv" role="3cqZAp" />
+            <node concept="3SKdUt" id="vxNERFPhxw" role="3cqZAp">
+              <node concept="3SKdUq" id="vxNERFPhxy" role="3SKWNk">
+                <property role="3SKdUp" value="add references to the concept" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="rMSKdR08Ip" role="3cqZAp">
               <node concept="3clFbS" id="rMSKdR08Ir" role="3clFbx">
                 <node concept="3clFbH" id="rMSKdR0wQt" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPiWi" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPiWk" role="3SKWNk">
+                    <property role="3SKdUp" value="create the reference declaration" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="rMSKdR0x8H" role="3cqZAp">
                   <node concept="3cpWsn" id="rMSKdR0x8K" role="3cpWs9">
                     <property role="TrG5h" value="linkDec" />
@@ -2015,6 +2241,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="rMSKdR0_5V" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPkoL" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPkoN" role="3SKWNk">
+                    <property role="3SKdUp" value="get the name of the concept to link to" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="rMSKdR0BU_" role="3cqZAp">
                   <node concept="3cpWsn" id="rMSKdR0BUC" role="3cpWs9">
                     <property role="TrG5h" value="otherConceptStr" />
@@ -2052,6 +2283,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="rMSKdR0Cdb" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPlLi" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPlLk" role="3SKWNk">
+                    <property role="3SKdUp" value="get the other concept" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="rMSKdR0_7o" role="3cqZAp">
                   <node concept="3cpWsn" id="rMSKdR0_7p" role="3cpWs9">
                     <property role="TrG5h" value="otherNode" />
@@ -2069,6 +2305,12 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="vxNERFPmkk" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPnGM" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPnGO" role="3SKWNk">
+                    <property role="3SKdUp" value="throw an error if the other node could not be found" />
                   </node>
                 </node>
                 <node concept="3clFbJ" id="rMSKdR3DIJ" role="3cqZAp">
@@ -2094,6 +2336,12 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="vxNERFPofQ" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPpCx" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPpCz" role="3SKWNk">
+                    <property role="3SKdUp" value="set the target of the reference" />
+                  </node>
+                </node>
                 <node concept="3clFbF" id="rMSKdR0zKy" role="3cqZAp">
                   <node concept="2OqwBi" id="rMSKdR1kyQ" role="3clFbG">
                     <node concept="2OqwBi" id="rMSKdR0$g4" role="2Oq$k0">
@@ -2112,11 +2360,9 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="rMSKdR0wRO" role="3cqZAp" />
-                <node concept="3clFbH" id="rMSKdR1LdA" role="3cqZAp" />
-                <node concept="3clFbH" id="rMSKdR1lhA" role="3cqZAp" />
                 <node concept="3SKdUt" id="rMSKdR1NoK" role="3cqZAp">
                   <node concept="3SKdUq" id="rMSKdR1NoM" role="3SKWNk">
-                    <property role="3SKdUp" value="Set multiplicity" />
+                    <property role="3SKdUp" value="Set source multiplicity" />
                   </node>
                 </node>
                 <node concept="3cpWs8" id="rMSKdR1Ndb" role="3cqZAp">
@@ -2144,6 +2390,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="rMSKdR1N3l" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPshK" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPshM" role="3SKWNk">
+                    <property role="3SKdUp" value="get the source multiplicity from the element" />
+                  </node>
+                </node>
                 <node concept="3clFbJ" id="rMSKdR1O53" role="3cqZAp">
                   <node concept="3clFbS" id="rMSKdR1O55" role="3clFbx">
                     <node concept="3clFbF" id="rMSKdR2lHK" role="3cqZAp">
@@ -2165,6 +2416,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="rMSKdR2mCL" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPtEx" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPtEz" role="3SKWNk">
+                    <property role="3SKdUp" value="set target multiplicity" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="rMSKdR2mQW" role="3cqZAp">
                   <node concept="3cpWsn" id="rMSKdR2mQZ" role="3cpWs9">
                     <property role="TrG5h" value="trgtMultiplicity" />
@@ -2190,6 +2446,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="rMSKdR2o7j" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPv3m" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPv3o" role="3SKWNk">
+                    <property role="3SKdUp" value="set the multiplicity if it exists in the element" />
+                  </node>
+                </node>
                 <node concept="3clFbJ" id="rMSKdR2ouc" role="3cqZAp">
                   <node concept="3clFbS" id="rMSKdR2oue" role="3clFbx">
                     <node concept="3clFbF" id="rMSKdR2V1$" role="3cqZAp">
@@ -2200,6 +2461,17 @@
                         <node concept="37vLTw" id="rMSKdR3nqQ" role="37vLTJ">
                           <ref role="3cqZAo" node="rMSKdR2mQZ" resolve="trgtMultiplicity" />
                         </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="vxNERFPvFM" role="3cqZAp" />
+                    <node concept="3SKdUt" id="vxNERFPvQP" role="3cqZAp">
+                      <node concept="3SKdUq" id="vxNERFPvQR" role="3SKWNk">
+                        <property role="3SKdUp" value="if the element has a target multiplicity" />
+                      </node>
+                    </node>
+                    <node concept="3SKdUt" id="vxNERFPw1Y" role="3cqZAp">
+                      <node concept="3SKdUq" id="vxNERFPw20" role="3SKWNk">
+                        <property role="3SKdUp" value="of -1, change it to n" />
                       </node>
                     </node>
                     <node concept="3clFbJ" id="rMSKdR3o7L" role="3cqZAp">
@@ -2236,6 +2508,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="rMSKdR2o9s" role="3cqZAp" />
+                <node concept="3SKdUt" id="vxNERFPwO6" role="3cqZAp">
+                  <node concept="3SKdUq" id="vxNERFPwO8" role="3SKWNk">
+                    <property role="3SKdUp" value="manually set the multiplicity string" />
+                  </node>
+                </node>
                 <node concept="3clFbF" id="rMSKdR1LEa" role="3cqZAp">
                   <node concept="37vLTI" id="rMSKdR3rjo" role="3clFbG">
                     <node concept="3cpWs3" id="rMSKdR3svx" role="37vLTx">
@@ -2314,7 +2591,6 @@
                     <property role="3SKdUp" value="If the target multiplicity is 'n', then this must be a containment link" />
                   </node>
                 </node>
-                <node concept="3clFbH" id="rMSKdR4jNF" role="3cqZAp" />
                 <node concept="3clFbJ" id="rMSKdR4k1b" role="3cqZAp">
                   <node concept="3clFbS" id="rMSKdR4k1d" role="3clFbx">
                     <node concept="3clFbF" id="rMSKdR4m8b" role="3cqZAp">
@@ -2381,7 +2657,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="rMSKdR0wi3" role="3cqZAp" />
               </node>
               <node concept="37vLTw" id="rMSKdR08OP" role="3clFbw">
                 <ref role="3cqZAo" node="4C8cDtELZ3_" resolve="isReference" />
@@ -2487,7 +2762,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4C8cDtEMEku" role="jymVt" />
-    <node concept="2tJIrI" id="2Ttkg9nW2sy" role="jymVt" />
     <node concept="3clFb_" id="7dExkrP$zSi" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="print" />
@@ -2495,6 +2769,11 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="7dExkrP$zSj" role="3clF47">
+        <node concept="3SKdUt" id="vxNERFP$ZM" role="3cqZAp">
+          <node concept="3SKdUq" id="vxNERFP$ZO" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Make this properly log" />
+          </node>
+        </node>
         <node concept="3clFbF" id="7dExkrP$zSk" role="3cqZAp">
           <node concept="2YIFZM" id="7dExkrP$zSl" role="3clFbG">
             <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
@@ -2607,7 +2886,16 @@
                 <ref role="3uigEE" to="mmaq:~JDOMException" resolve="JDOMException" />
               </node>
             </node>
-            <node concept="3clFbS" id="7dExkrP$Pwd" role="TDEfX" />
+            <node concept="3clFbS" id="7dExkrP$Pwd" role="TDEfX">
+              <node concept="3clFbF" id="vxNERFP_q5" role="3cqZAp">
+                <node concept="1rXfSq" id="vxNERFP_q4" role="3clFbG">
+                  <ref role="37wK5l" node="7dExkrP$MYT" resolve="print" />
+                  <node concept="Xl_RD" id="vxNERFP_xF" role="37wK5m">
+                    <property role="Xl_RC" value="ERROR: JDOMException" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="TDmWw" id="7dExkrP$QpU" role="TEbGg">
             <node concept="3cpWsn" id="7dExkrP$QpV" role="TDEfY">
@@ -2616,7 +2904,16 @@
                 <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
               </node>
             </node>
-            <node concept="3clFbS" id="7dExkrP$QpX" role="TDEfX" />
+            <node concept="3clFbS" id="7dExkrP$QpX" role="TDEfX">
+              <node concept="3clFbF" id="vxNERFPA2s" role="3cqZAp">
+                <node concept="1rXfSq" id="vxNERFPA2r" role="3clFbG">
+                  <ref role="37wK5l" node="7dExkrP$MYT" resolve="print" />
+                  <node concept="Xl_RD" id="vxNERFPAa2" role="37wK5m">
+                    <property role="Xl_RC" value="ERROR: IOException" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
