@@ -103,7 +103,7 @@
   <node concept="1l3spW" id="vxNERFNzbz">
     <property role="TrG5h" value="EMF-Import" />
     <property role="2DA0ip" value="../../" />
-    <property role="turDy" value="EMFbuild.xml" />
+    <property role="turDy" value="ImportBuild.xml" />
     <node concept="10PD9b" id="vxNERFNzb$" role="10PD9s" />
     <node concept="3b7kt6" id="vxNERFNzb_" role="10PD9s" />
     <node concept="398rNT" id="vxNERFNzbA" role="1l3spd">

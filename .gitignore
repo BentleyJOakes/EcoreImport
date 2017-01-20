@@ -16,3 +16,5 @@ TEST-*.xml
 junit*.properties
 
 nohup.out
+
+build/tmp/*
