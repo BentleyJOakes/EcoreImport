@@ -21,6 +21,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -1283,26 +1284,216 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="29ehJIfoGnL" role="3eOfB_">
-                  <node concept="1X3_iC" id="29ehJIfoIQ4" role="lGtFl">
-                    <property role="3V$3am" value="statement" />
-                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                    <node concept="3clFbF" id="29ehJIfoIkz" role="8Wnug">
-                      <node concept="2OqwBi" id="29ehJIfoIwa" role="3clFbG">
-                        <node concept="37vLTw" id="29ehJIfoIky" role="2Oq$k0">
+                  <node concept="3cpWs8" id="29ehJIfpQsA" role="3cqZAp">
+                    <node concept="3cpWsn" id="29ehJIfpQsD" role="3cpWs9">
+                      <property role="TrG5h" value="enumNode" />
+                      <node concept="3Tqbb2" id="29ehJIfpQs$" role="1tU5fm">
+                        <ref role="ehGHo" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration" />
+                      </node>
+                      <node concept="2OqwBi" id="29ehJIfpQGS" role="33vP2m">
+                        <node concept="37vLTw" id="29ehJIfpQwQ" role="2Oq$k0">
                           <ref role="3cqZAo" node="7dExkrP$wWk" resolve="currModel" />
                         </node>
-                        <node concept="2xF2bX" id="29ehJIfoIHu" role="2OqNvi" />
+                        <node concept="2xF2bX" id="29ehJIfqqZD" role="2OqNvi">
+                          <ref role="I8UWU" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration" />
+                        </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbF" id="29ehJIfoJ6o" role="3cqZAp">
-                    <node concept="1rXfSq" id="29ehJIfoJ6m" role="3clFbG">
-                      <ref role="37wK5l" node="7dExkrP$zSi" resolve="print" />
-                      <node concept="Xl_RD" id="29ehJIfoJam" role="37wK5m">
-                        <property role="Xl_RC" value="Enums are not currently supported" />
+                  <node concept="3clFbF" id="29ehJIfpR2X" role="3cqZAp">
+                    <node concept="2OqwBi" id="29ehJIfpRPh" role="3clFbG">
+                      <node concept="2OqwBi" id="29ehJIfpRg1" role="2Oq$k0">
+                        <node concept="37vLTw" id="29ehJIfpR2V" role="2Oq$k0">
+                          <ref role="3cqZAo" node="29ehJIfpQsD" resolve="enumNode" />
+                        </node>
+                        <node concept="3TrEf2" id="29ehJIfpRtM" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tpce:fKM4eW5" resolve="memberDataType" />
+                        </node>
+                      </node>
+                      <node concept="2oxUTD" id="29ehJIfpS2X" role="2OqNvi">
+                        <node concept="3B5_sB" id="29ehJIfpSd8" role="2oxUTC">
+                          <ref role="3B5MYn" to="tpck:fKAQMTA" resolve="integer" />
+                        </node>
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbF" id="29ehJIfqr8V" role="3cqZAp">
+                    <node concept="37vLTI" id="29ehJIfqsRA" role="3clFbG">
+                      <node concept="37vLTw" id="29ehJIfqsVT" role="37vLTx">
+                        <ref role="3cqZAo" node="2Ttkg9nW9qB" resolve="name" />
+                      </node>
+                      <node concept="2OqwBi" id="29ehJIfqrMz" role="37vLTJ">
+                        <node concept="37vLTw" id="29ehJIfqr8T" role="2Oq$k0">
+                          <ref role="3cqZAo" node="29ehJIfpQsD" resolve="enumNode" />
+                        </node>
+                        <node concept="3TrcHB" id="29ehJIfqsdL" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="29ehJIfq2rq" role="3cqZAp" />
+                  <node concept="3cpWs8" id="29ehJIfqbmA" role="3cqZAp">
+                    <node concept="3cpWsn" id="29ehJIfqbmD" role="3cpWs9">
+                      <property role="TrG5h" value="enumValues" />
+                      <node concept="10Oyi0" id="29ehJIfqbm$" role="1tU5fm" />
+                      <node concept="3cmrfG" id="29ehJIfqbvl" role="33vP2m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2Gpval" id="29ehJIfq2Hk" role="3cqZAp">
+                    <node concept="2GrKxI" id="29ehJIfq2Hm" role="2Gsz3X">
+                      <property role="TrG5h" value="member" />
+                    </node>
+                    <node concept="2OqwBi" id="29ehJIfq3oL" role="2GsD0m">
+                      <node concept="37vLTw" id="29ehJIfq2LR" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7dExkrP_vRS" resolve="curr" />
+                      </node>
+                      <node concept="liA8E" id="29ehJIfq3H2" role="2OqNvi">
+                        <ref role="37wK5l" to="mmaq:~Element.getChildren():java.util.List" resolve="getChildren" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="29ehJIfq2Hq" role="2LFqv$">
+                      <node concept="3cpWs8" id="29ehJIfq3Xd" role="3cqZAp">
+                        <node concept="3cpWsn" id="29ehJIfq3Xg" role="3cpWs9">
+                          <property role="TrG5h" value="enumMember" />
+                          <node concept="3Tqbb2" id="29ehJIfq3Xb" role="1tU5fm">
+                            <ref role="ehGHo" to="tpce:fKM4N6M" resolve="EnumerationMemberDeclaration" />
+                          </node>
+                          <node concept="2ShNRf" id="29ehJIfq41m" role="33vP2m">
+                            <node concept="3zrR0B" id="29ehJIfq8mR" role="2ShVmc">
+                              <node concept="3Tqbb2" id="29ehJIfq8mT" role="3zrR0E">
+                                <ref role="ehGHo" to="tpce:fKM4N6M" resolve="EnumerationMemberDeclaration" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="29ehJIfqcTS" role="3cqZAp" />
+                      <node concept="3SKdUt" id="29ehJIfqd2n" role="3cqZAp">
+                        <node concept="3SKdUq" id="29ehJIfqd2p" role="3SKWNk">
+                          <property role="3SKdUp" value="TODO: Set enum value from ecore file" />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="29ehJIfqazt" role="3cqZAp">
+                        <node concept="37vLTI" id="29ehJIfqcx1" role="3clFbG">
+                          <node concept="37vLTw" id="29ehJIfqcHh" role="37vLTx">
+                            <ref role="3cqZAo" node="29ehJIfqbmD" resolve="enumValues" />
+                          </node>
+                          <node concept="2OqwBi" id="29ehJIfqaMZ" role="37vLTJ">
+                            <node concept="37vLTw" id="29ehJIfqazr" role="2Oq$k0">
+                              <ref role="3cqZAo" node="29ehJIfq3Xg" resolve="enumMember" />
+                            </node>
+                            <node concept="3TrcHB" id="29ehJIfqaX_" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpce:fLuS6pz" resolve="internalValue" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="29ehJIfqdaY" role="3cqZAp">
+                        <node concept="37vLTI" id="29ehJIfqeym" role="3clFbG">
+                          <node concept="3cpWs3" id="29ehJIfqgi_" role="37vLTx">
+                            <node concept="3cmrfG" id="29ehJIfqgmA" role="3uHU7w">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                            <node concept="37vLTw" id="29ehJIfqeVl" role="3uHU7B">
+                              <ref role="3cqZAo" node="29ehJIfqbmD" resolve="enumValues" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="29ehJIfqdaW" role="37vLTJ">
+                            <ref role="3cqZAo" node="29ehJIfqbmD" resolve="enumValues" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="29ehJIfqgH6" role="3cqZAp" />
+                      <node concept="3cpWs8" id="29ehJIfqh3b" role="3cqZAp">
+                        <node concept="3cpWsn" id="29ehJIfqh3c" role="3cpWs9">
+                          <property role="TrG5h" value="enumName" />
+                          <node concept="3uibUv" id="29ehJIfqh3d" role="1tU5fm">
+                            <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                          </node>
+                          <node concept="1rXfSq" id="29ehJIfqn9E" role="33vP2m">
+                            <ref role="37wK5l" node="4C8cDtEMEKH" resolve="getValueOfAttribute" />
+                            <node concept="2GrUjf" id="29ehJIfqnhF" role="37wK5m">
+                              <ref role="2Gs0qQ" node="29ehJIfq2Hm" resolve="member" />
+                            </node>
+                            <node concept="Xl_RD" id="29ehJIfqnlF" role="37wK5m">
+                              <property role="Xl_RC" value="name" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="29ehJIfqgPT" role="3cqZAp">
+                        <node concept="37vLTI" id="29ehJIfqjk2" role="3clFbG">
+                          <node concept="37vLTw" id="29ehJIfqjsn" role="37vLTx">
+                            <ref role="3cqZAo" node="29ehJIfqh3c" resolve="enumName" />
+                          </node>
+                          <node concept="2OqwBi" id="29ehJIfqinX" role="37vLTJ">
+                            <node concept="37vLTw" id="29ehJIfqgPR" role="2Oq$k0">
+                              <ref role="3cqZAo" node="29ehJIfq3Xg" resolve="enumMember" />
+                            </node>
+                            <node concept="3TrcHB" id="29ehJIfqiGP" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpce:fLuS6p$" resolve="externalValue" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="29ehJIfqwuD" role="3cqZAp" />
+                      <node concept="3clFbF" id="29ehJIfqwBQ" role="3cqZAp">
+                        <node concept="2OqwBi" id="29ehJIfqySH" role="3clFbG">
+                          <node concept="2OqwBi" id="29ehJIfqwXz" role="2Oq$k0">
+                            <node concept="37vLTw" id="29ehJIfqwBO" role="2Oq$k0">
+                              <ref role="3cqZAo" node="29ehJIfpQsD" resolve="enumNode" />
+                            </node>
+                            <node concept="3Tsc0h" id="29ehJIfqxoL" role="2OqNvi">
+                              <ref role="3TtcxE" to="tpce:fKM5hVY" resolve="member" />
+                            </node>
+                          </node>
+                          <node concept="TSZUe" id="29ehJIfqA7O" role="2OqNvi">
+                            <node concept="37vLTw" id="29ehJIfqAo1" role="25WWJ7">
+                              <ref role="3cqZAo" node="29ehJIfq3Xg" resolve="enumMember" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="29ehJIfq2sj" role="3cqZAp" />
+                  <node concept="3clFbH" id="29ehJIfq2sL" role="3cqZAp" />
+                  <node concept="3clFbF" id="29ehJIfpSnU" role="3cqZAp">
+                    <node concept="2OqwBi" id="29ehJIfpSnV" role="3clFbG">
+                      <node concept="37vLTw" id="29ehJIfpSnW" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1l44tumskTn" resolve="isAbstractMap" />
+                      </node>
+                      <node concept="liA8E" id="29ehJIfpSnX" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~HashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                        <node concept="37vLTw" id="29ehJIfpSnY" role="37wK5m">
+                          <ref role="3cqZAo" node="2Ttkg9nW9qB" resolve="name" />
+                        </node>
+                        <node concept="3clFbT" id="29ehJIfpS_5" role="37wK5m">
+                          <property role="3clFbU" value="false" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="29ehJIfpSTn" role="3cqZAp">
+                    <node concept="2OqwBi" id="29ehJIfpTMX" role="3clFbG">
+                      <node concept="37vLTw" id="29ehJIfpSTl" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1l44tumqXYo" resolve="nodeMap" />
+                      </node>
+                      <node concept="liA8E" id="29ehJIfpVSf" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~HashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                        <node concept="37vLTw" id="29ehJIfpW8$" role="37wK5m">
+                          <ref role="3cqZAo" node="2Ttkg9nW9qB" resolve="name" />
+                        </node>
+                        <node concept="37vLTw" id="29ehJIfpWn7" role="37wK5m">
+                          <ref role="3cqZAo" node="29ehJIfpQsD" resolve="enumNode" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="29ehJIfpSnE" role="3cqZAp" />
                 </node>
               </node>
             </node>
