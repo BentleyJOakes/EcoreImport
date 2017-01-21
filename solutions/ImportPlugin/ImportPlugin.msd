@@ -5,9 +5,6 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
-  <facets>
-    <facet type="ideaPlugin" />
-  </facets>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

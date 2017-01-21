@@ -282,8 +282,8 @@
   </node>
   <node concept="sE7Ow" id="5UUx$ZlNChF">
     <property role="TrG5h" value="ImportAction" />
-    <property role="2uzpH1" value="Import EMF" />
-    <property role="1WHSii" value="Import an EMF metamodel into this model" />
+    <property role="2uzpH1" value="Import Ecore" />
+    <property role="1WHSii" value="Import an ecore metamodel into this model" />
     <node concept="tnohg" id="5UUx$ZlNChG" role="tncku">
       <node concept="3clFbS" id="5UUx$ZlNChH" role="2VODD2">
         <node concept="3clFbH" id="5UUx$ZlNIxG" role="3cqZAp" />
@@ -803,11 +803,11 @@
           <node concept="3cpWsn" id="7dExkrP$DLL" role="3cpWs9">
             <property role="TrG5h" value="parser" />
             <node concept="3uibUv" id="7dExkrP$DLM" role="1tU5fm">
-              <ref role="3uigEE" node="7dExkrP$_3z" resolve="EMFParser" />
+              <ref role="3uigEE" node="7dExkrP$_3z" resolve="EcoreLoader" />
             </node>
             <node concept="2ShNRf" id="7dExkrP$DQe" role="33vP2m">
               <node concept="1pGfFk" id="7dExkrP$FkD" role="2ShVmc">
-                <ref role="37wK5l" node="7dExkrP$EJV" resolve="EMFParser" />
+                <ref role="37wK5l" node="7dExkrP$EJV" resolve="EcoreLoader" />
                 <node concept="37vLTw" id="7dExkrP$FoH" role="37wK5m">
                   <ref role="3cqZAo" node="7dExkrP$wWq" resolve="mmFile" />
                 </node>
@@ -2796,7 +2796,7 @@
     <node concept="3Tm1VV" id="7dExkrP$uX0" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7dExkrP$_3z">
-    <property role="TrG5h" value="EMFParser" />
+    <property role="TrG5h" value="EcoreLoader" />
     <node concept="2tJIrI" id="7dExkrP$_3_" role="jymVt" />
     <node concept="312cEg" id="7dExkrP$I4E" role="jymVt">
       <property role="34CwA1" value="false" />

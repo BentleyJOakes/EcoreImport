@@ -60,16 +60,22 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
+      <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
+        <property id="7832771629084799702" name="name" index="2iUeEt" />
+        <property id="7832771629084799701" name="url" index="2iUeEu" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
+        <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -101,7 +107,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="vxNERFNzbz">
-    <property role="TrG5h" value="EMF-Import" />
+    <property role="TrG5h" value="EcoreImport" />
     <property role="2DA0ip" value="../../" />
     <property role="turDy" value="ImportBuild.xml" />
     <node concept="10PD9b" id="vxNERFNzb$" role="10PD9s" />
@@ -133,7 +139,7 @@
       <node concept="3981dG" id="vxNERFNzbU" role="39821P">
         <node concept="3_J27D" id="vxNERFNzbV" role="Nbhlr">
           <node concept="3Mxwew" id="vxNERFNzbW" role="3MwsjC">
-            <property role="3MwjfP" value="EMF-Import.zip" />
+            <property role="3MwjfP" value="EcoreImport.zip" />
           </node>
         </node>
         <node concept="m$_wl" id="vxNERFNzbX" role="39821P">
@@ -145,7 +151,7 @@
       <property role="m$_wk" value="ImportPlugin" />
       <node concept="3_J27D" id="vxNERFNzbL" role="m$_yQ">
         <node concept="3Mxwew" id="vxNERFNzbM" role="3MwsjC">
-          <property role="3MwjfP" value="EMF-Import" />
+          <property role="3MwjfP" value="EcoreImport" />
         </node>
       </node>
       <node concept="3_J27D" id="vxNERFNzbN" role="m$_w8">
@@ -154,7 +160,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="vxNERFN_3l" role="m$_yh">
-        <ref role="m$f5T" node="vxNERFNzbJ" resolve="EMF-Import" />
+        <ref role="m$f5T" node="vxNERFNzbJ" resolve="EcoreImport" />
       </node>
       <node concept="m$_yC" id="vxNERFNzbQ" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -164,12 +170,21 @@
       </node>
       <node concept="3_J27D" id="vxNERFNzbR" role="m_cZH">
         <node concept="3Mxwew" id="vxNERFNzbS" role="3MwsjC">
-          <property role="3MwjfP" value="EMF-Import" />
+          <property role="3MwjfP" value="EcoreImport" />
         </node>
+      </node>
+      <node concept="3_J27D" id="1DAz9vbq5CG" role="3s6cr7">
+        <node concept="3Mxwew" id="1DAz9vbq5CI" role="3MwsjC">
+          <property role="3MwjfP" value="Import an ecore metamodel into a language's structure" />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="1DAz9vbq5CO" role="2iVFfd">
+        <property role="2iUeEt" value="Bentley James Oakes" />
+        <property role="2iUeEu" value="bentleyjoakes@gmail.com" />
       </node>
     </node>
     <node concept="2G$12M" id="vxNERFNzbJ" role="3989C9">
-      <property role="TrG5h" value="EMF-Import" />
+      <property role="TrG5h" value="EcoreImport" />
       <node concept="1E1JtA" id="vxNERFNzbI" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="ImportPlugin" />
