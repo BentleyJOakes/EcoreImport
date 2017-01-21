@@ -32,9 +32,9 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>ImportPlugin</id>
         <name>EcoreImport</name>
-        <description>Import an ecore metamodel into a language's structure</description>
+        <description>Import an ecore metamodel into a language's structure. Right-click on a language's structure aspect and select Import Ecore.</description>
         <version>1.0</version>
-        <vendor url="bentleyjoakes@gmail.com">Bentley James Oakes</vendor>
+        <vendor url="https://github.com/BentleyJOakes/EcoreImport">Bentley James Oakes</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         

@@ -175,12 +175,12 @@
       </node>
       <node concept="3_J27D" id="1DAz9vbq5CG" role="3s6cr7">
         <node concept="3Mxwew" id="1DAz9vbq5CI" role="3MwsjC">
-          <property role="3MwjfP" value="Import an ecore metamodel into a language's structure" />
+          <property role="3MwjfP" value="Import an ecore metamodel into a language's structure. Right-click on a language's structure aspect and select Import Ecore." />
         </node>
       </node>
       <node concept="2iUeEo" id="1DAz9vbq5CO" role="2iVFfd">
         <property role="2iUeEt" value="Bentley James Oakes" />
-        <property role="2iUeEu" value="bentleyjoakes@gmail.com" />
+        <property role="2iUeEu" value="https://github.com/BentleyJOakes/EcoreImport" />
       </node>
     </node>
     <node concept="2G$12M" id="vxNERFNzbJ" role="3989C9">
