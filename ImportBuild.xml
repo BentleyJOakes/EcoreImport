@@ -33,7 +33,7 @@
         <id>ImportPlugin</id>
         <name>EcoreImport</name>
         <description>Import an ecore metamodel into a language's structure. Right-click on a language's structure aspect and select Import Ecore.</description>
-        <version>1.0</version>
+        <version>0.1</version>
         <vendor url="https://github.com/BentleyJOakes/EcoreImport">Bentley James Oakes</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
