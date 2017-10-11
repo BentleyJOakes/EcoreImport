@@ -3,7 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="2" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="3" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -109,7 +110,9 @@
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
-      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
+        <property id="269707337715731330" name="sourcesKind" index="aoJFB" />
+      </concept>
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -135,8 +138,8 @@
             <property role="2Ry0Am" value=".." />
             <node concept="2Ry0Ak" id="vxNERFNMkn" role="2Ry0An">
               <property role="2Ry0Am" value="Desktop" />
-              <node concept="2Ry0Ak" id="vxNERFNMkX" role="2Ry0An">
-                <property role="2Ry0Am" value="MPS 3.4" />
+              <node concept="2Ry0Ak" id="2vSNULMpn90" role="2Ry0An">
+                <property role="2Ry0Am" value="MPS 2017.2" />
               </node>
             </node>
           </node>
@@ -213,6 +216,7 @@
         <property role="TrG5h" value="ImportPlugin" />
         <property role="3LESm3" value="ab8de41e-6706-466a-98fa-9599bcac9761" />
         <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources" />
         <node concept="55IIr" id="vxNERFNzbD" role="3LF7KH">
           <node concept="2Ry0Ak" id="vxNERFNzbE" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />

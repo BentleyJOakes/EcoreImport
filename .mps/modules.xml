@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/Test/Test.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ImportPlugin/ImportPlugin.msd" folder="" />
     </projectModules>
   </component>
