@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7c9cfa75-fad2-4948-aead-1aaa2180bdc3(ImportPlugin.build)">
+<model ref="r:7c9cfa75-fad2-4948-aead-1aaa2180bdc3(EcoreImport.build)">
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
@@ -213,17 +213,17 @@
       <property role="TrG5h" value="EcoreImport" />
       <node concept="1E1JtA" id="vxNERFNzbI" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="ImportPlugin" />
+        <property role="TrG5h" value="EcoreImport" />
         <property role="3LESm3" value="ab8de41e-6706-466a-98fa-9599bcac9761" />
         <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources" />
         <node concept="55IIr" id="vxNERFNzbD" role="3LF7KH">
           <node concept="2Ry0Ak" id="vxNERFNzbE" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="vxNERFNzbF" role="2Ry0An">
-              <property role="2Ry0Am" value="ImportPlugin" />
-              <node concept="2Ry0Ak" id="vxNERFNzbG" role="2Ry0An">
-                <property role="2Ry0Am" value="ImportPlugin.msd" />
+            <node concept="2Ry0Ak" id="4jYIdECLYIm" role="2Ry0An">
+              <property role="2Ry0Am" value="EcoreImport" />
+              <node concept="2Ry0Ak" id="4jYIdECLYIp" role="2Ry0An">
+                <property role="2Ry0Am" value="EcoreImport.msd" />
               </node>
             </node>
           </node>
