@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/EcoreImport" />
   <property name="build.layout" location="${build.dir}/artifacts/EcoreImport" />
-  <property name="mps_home" location="${basedir}/../../Desktop/MPS 2017.2" />
+  <property name="mps_home" location="${basedir}/../../Desktop/MPS 2017.3" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -29,11 +29,11 @@
     <mkdir dir="${build.tmp}/default/EcoreImport.zip/EcoreImport" />
     <mkdir dir="${build.tmp}/default/EcoreImport.zip/EcoreImport/META-INF" />
     <echoxml file="${build.tmp}/default/EcoreImport.zip/EcoreImport/META-INF/plugin.xml">
-      <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>ImportPlugin</id>
         <name>EcoreImport</name>
         <description>Import an ecore metamodel into a language's structure. Right-click on a language's structure aspect and select Import Ecore.</description>
-        <version>0.1.1</version>
+        <version>0.1.2</version>
         <vendor url="https://github.com/BentleyJOakes/EcoreImport">Bentley James Oakes</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
@@ -169,6 +169,7 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.refactoring.participant.jar" />
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.reduced.jar" />
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.tool.gentest.jar" />
+      <library file="${artifacts.mps}/languages/text/jetbrains.mps.lang.text.jar" />
       <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
       <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <library file="${artifacts.mps}/lib/mps-behavior-api.jar" />
@@ -189,7 +190,6 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
-      <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
         <module file="${basedir}/solutions/EcoreImport/EcoreImport.msd" />
       </chunk>
