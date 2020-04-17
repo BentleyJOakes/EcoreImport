@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
   <imports>
@@ -101,10 +101,12 @@
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
+        <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
@@ -147,10 +149,10 @@
           <property role="2Ry0Am" value=".." />
           <node concept="2Ry0Ak" id="vxNERFNMjq" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="vxNERFNMkn" role="2Ry0An">
-              <property role="2Ry0Am" value="Desktop" />
-              <node concept="2Ry0Ak" id="2vSNULMpn90" role="2Ry0An">
-                <property role="2Ry0Am" value="MPS 2017.3" />
+            <node concept="2Ry0Ak" id="4zX0u0fleCF" role="2Ry0An">
+              <property role="2Ry0Am" value="Software" />
+              <node concept="2Ry0Ak" id="4zX0u0fleD0" role="2Ry0An">
+                <property role="2Ry0Am" value="MPS 2019.3" />
               </node>
             </node>
           </node>
@@ -172,6 +174,7 @@
         </node>
         <node concept="m$_wl" id="vxNERFNzbX" role="39821P">
           <ref role="m_rDy" node="vxNERFNzbK" resolve="ImportPlugin" />
+          <node concept="pUk6x" id="4OSXsDb$6PL" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -184,7 +187,7 @@
       </node>
       <node concept="3_J27D" id="vxNERFNzbN" role="m$_w8">
         <node concept="3Mxwew" id="vxNERFNzbO" role="3MwsjC">
-          <property role="3MwjfP" value="0.1.2" />
+          <property role="3MwjfP" value="0.1.4" />
         </node>
       </node>
       <node concept="m$f5U" id="vxNERFN_3l" role="m$_yh">
@@ -203,7 +206,7 @@
       </node>
       <node concept="3_J27D" id="1DAz9vbq5CG" role="3s6cr7">
         <node concept="3Mxwew" id="1DAz9vbq5CI" role="3MwsjC">
-          <property role="3MwjfP" value="Import an ecore metamodel into a language's structure. Right-click on a language's structure aspect and select Import Ecore." />
+          <property role="3MwjfP" value="Import an Ecore metamodel into a language's structure. Right-click on a language's structure aspect and select Import Ecore." />
         </node>
       </node>
       <node concept="2iUeEo" id="1DAz9vbq5CO" role="2iVFfd">
@@ -227,7 +230,7 @@
         <property role="TrG5h" value="EcoreImport" />
         <property role="3LESm3" value="ab8de41e-6706-466a-98fa-9599bcac9761" />
         <property role="2GAjPV" value="false" />
-        <property role="aoJFB" value="sources" />
+        <property role="aoJFB" value="eYcmk9QOli/sources" />
         <node concept="55IIr" id="vxNERFNzbD" role="3LF7KH">
           <node concept="2Ry0Ak" id="vxNERFNzbE" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
@@ -282,6 +285,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4zX0u0frqre" role="3bR37C">
+          <node concept="3bR9La" id="4zX0u0frqrf" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>

@@ -14,8 +14,13 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -35,379 +40,167 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="5oax6Fmm_6y">
-    <property role="TrG5h" value="RSS" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552226" />
-    <node concept="1TJgyi" id="5oax6Fmm_6F" role="1TKVEl">
-      <property role="TrG5h" value="version" />
-      <property role="IQ2nx" value="6199913431426552235" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_6G" role="1TKVEi">
-      <property role="20kJfa" value="channel" />
-      <property role="20lbJX" value="1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552236" />
-      <ref role="20lvS9" node="5oax6Fmm_6z" resolve="Channel" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6z">
-    <property role="TrG5h" value="Channel" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552227" />
-    <node concept="1TJgyi" id="5oax6Fmm_6H" role="1TKVEl">
-      <property role="TrG5h" value="title" />
-      <property role="IQ2nx" value="6199913431426552237" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6I" role="1TKVEl">
-      <property role="TrG5h" value="link" />
-      <property role="IQ2nx" value="6199913431426552238" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6J" role="1TKVEl">
-      <property role="TrG5h" value="description" />
-      <property role="IQ2nx" value="6199913431426552239" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6K" role="1TKVEl">
-      <property role="TrG5h" value="language" />
-      <property role="IQ2nx" value="6199913431426552240" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6L" role="1TKVEl">
-      <property role="TrG5h" value="copyright" />
-      <property role="IQ2nx" value="6199913431426552241" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6M" role="1TKVEl">
-      <property role="TrG5h" value="managingEditor" />
-      <property role="IQ2nx" value="6199913431426552242" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6N" role="1TKVEl">
-      <property role="TrG5h" value="webmaster" />
-      <property role="IQ2nx" value="6199913431426552243" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6O" role="1TKVEl">
-      <property role="TrG5h" value="generator" />
-      <property role="IQ2nx" value="6199913431426552244" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6P" role="1TKVEl">
-      <property role="TrG5h" value="docs" />
-      <property role="IQ2nx" value="6199913431426552245" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6Q" role="1TKVEl">
-      <property role="TrG5h" value="ttl" />
-      <property role="IQ2nx" value="6199913431426552246" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6R" role="1TKVEl">
-      <property role="TrG5h" value="rating" />
-      <property role="IQ2nx" value="6199913431426552247" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6S" role="1TKVEl">
-      <property role="TrG5h" value="skipHours" />
-      <property role="IQ2nx" value="6199913431426552248" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6T" role="1TKVEl">
-      <property role="TrG5h" value="pubDate" />
-      <property role="IQ2nx" value="6199913431426552249" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6U" role="1TKVEl">
-      <property role="TrG5h" value="skipDays" />
-      <property role="IQ2nx" value="6199913431426552250" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_6V" role="1TKVEl">
-      <property role="TrG5h" value="lastBuildDate" />
-      <property role="IQ2nx" value="6199913431426552251" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_6W" role="1TKVEi">
-      <property role="20kJfa" value="rss" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6199913431426552252" />
-      <ref role="20lvS9" node="5oax6Fmm_6y" resolve="RSS" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_6X" role="1TKVEi">
-      <property role="20kJfa" value="image" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552253" />
-      <ref role="20lvS9" node="5oax6Fmm_6_" resolve="Image" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_6Y" role="1TKVEi">
-      <property role="20kJfa" value="textInput" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552254" />
-      <ref role="20lvS9" node="5oax6Fmm_6A" resolve="TextInput" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_6Z" role="1TKVEi">
-      <property role="20kJfa" value="cloud" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552255" />
-      <ref role="20lvS9" node="5oax6Fmm_6B" resolve="Cloud" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_70" role="1TKVEi">
-      <property role="20kJfa" value="category" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552256" />
-      <ref role="20lvS9" node="5oax6Fmm_6C" resolve="Category" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_71" role="1TKVEi">
-      <property role="20kJfa" value="items" />
-      <property role="20lbJX" value="0..n" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552257" />
-      <ref role="20lvS9" node="5oax6Fmm_6$" resolve="Item" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6$">
-    <property role="TrG5h" value="Item" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552228" />
-    <node concept="1TJgyi" id="5oax6Fmm_72" role="1TKVEl">
-      <property role="TrG5h" value="title" />
-      <property role="IQ2nx" value="6199913431426552258" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_73" role="1TKVEl">
-      <property role="TrG5h" value="link" />
-      <property role="IQ2nx" value="6199913431426552259" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_74" role="1TKVEl">
-      <property role="TrG5h" value="description" />
-      <property role="IQ2nx" value="6199913431426552260" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_75" role="1TKVEl">
-      <property role="TrG5h" value="pubDate" />
-      <property role="IQ2nx" value="6199913431426552261" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_76" role="1TKVEl">
-      <property role="TrG5h" value="author" />
-      <property role="IQ2nx" value="6199913431426552262" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_77" role="1TKVEl">
-      <property role="TrG5h" value="comments" />
-      <property role="IQ2nx" value="6199913431426552263" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_78" role="1TKVEl">
-      <property role="TrG5h" value="guid" />
-      <property role="IQ2nx" value="6199913431426552264" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_79" role="1TKVEi">
-      <property role="20kJfa" value="source" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552265" />
-      <ref role="20lvS9" node="5oax6Fmm_6E" resolve="Source" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7a" role="1TKVEi">
-      <property role="20kJfa" value="enclosure" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552266" />
-      <ref role="20lvS9" node="5oax6Fmm_6D" resolve="Enclosure" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7b" role="1TKVEi">
-      <property role="20kJfa" value="category" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="IQ2ns" value="6199913431426552267" />
-      <ref role="20lvS9" node="5oax6Fmm_6C" resolve="Category" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7c" role="1TKVEi">
-      <property role="20kJfa" value="channel" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6199913431426552268" />
-      <ref role="20lvS9" node="5oax6Fmm_6z" resolve="Channel" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6_">
-    <property role="TrG5h" value="Image" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552229" />
-    <node concept="1TJgyi" id="5oax6Fmm_7d" role="1TKVEl">
-      <property role="TrG5h" value="url" />
-      <property role="IQ2nx" value="6199913431426552269" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7e" role="1TKVEl">
-      <property role="TrG5h" value="title" />
-      <property role="IQ2nx" value="6199913431426552270" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7f" role="1TKVEl">
-      <property role="TrG5h" value="link" />
-      <property role="IQ2nx" value="6199913431426552271" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7g" role="1TKVEl">
-      <property role="TrG5h" value="description" />
-      <property role="IQ2nx" value="6199913431426552272" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7h" role="1TKVEl">
-      <property role="TrG5h" value="width" />
-      <property role="IQ2nx" value="6199913431426552273" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7i" role="1TKVEl">
-      <property role="TrG5h" value="height" />
-      <property role="IQ2nx" value="6199913431426552274" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7j" role="1TKVEi">
-      <property role="20kJfa" value="channel" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6199913431426552275" />
-      <ref role="20lvS9" node="5oax6Fmm_6z" resolve="Channel" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6A">
-    <property role="TrG5h" value="TextInput" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552230" />
-    <node concept="1TJgyi" id="5oax6Fmm_7k" role="1TKVEl">
-      <property role="TrG5h" value="title" />
-      <property role="IQ2nx" value="6199913431426552276" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7l" role="1TKVEl">
-      <property role="TrG5h" value="description" />
-      <property role="IQ2nx" value="6199913431426552277" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7m" role="1TKVEl">
+  <node concept="PlHQZ" id="4zX0u0frqqh">
+    <property role="TrG5h" value="Facility" />
+    <property role="EcuMT" value="5259362001681753745" />
+    <node concept="1TJgyi" id="4zX0u0frqqs" role="1TKVEl">
       <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="6199913431426552278" />
+      <property role="IQ2nx" value="5259362001681753756" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7n" role="1TKVEl">
-      <property role="TrG5h" value="link" />
-      <property role="IQ2nx" value="6199913431426552279" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7o" role="1TKVEi">
-      <property role="20kJfa" value="channel" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6199913431426552280" />
-      <ref role="20lvS9" node="5oax6Fmm_6z" resolve="Channel" />
+    <node concept="1TJgyj" id="4zX0u0frqqt" role="1TKVEi">
+      <property role="20kJfa" value="members" />
+      <property role="IQ2ns" value="5259362001681753757" />
+      <ref role="20lvS9" node="4zX0u0frqqi" resolve="Person" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6B">
-    <property role="TrG5h" value="Cloud" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552231" />
-    <node concept="1TJgyi" id="5oax6Fmm_7p" role="1TKVEl">
-      <property role="TrG5h" value="domain" />
-      <property role="IQ2nx" value="6199913431426552281" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7q" role="1TKVEl">
-      <property role="TrG5h" value="port" />
-      <property role="IQ2nx" value="6199913431426552282" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7r" role="1TKVEl">
-      <property role="TrG5h" value="path" />
-      <property role="IQ2nx" value="6199913431426552283" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7s" role="1TKVEl">
-      <property role="TrG5h" value="registerProcedure" />
-      <property role="IQ2nx" value="6199913431426552284" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7t" role="1TKVEl">
-      <property role="TrG5h" value="protocol" />
-      <property role="IQ2nx" value="6199913431426552285" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7u" role="1TKVEi">
-      <property role="20kJfa" value="channel" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6199913431426552286" />
-      <ref role="20lvS9" node="5oax6Fmm_6z" resolve="Channel" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6C">
-    <property role="TrG5h" value="Category" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552232" />
-    <node concept="1TJgyi" id="5oax6Fmm_7v" role="1TKVEl">
-      <property role="TrG5h" value="domain" />
-      <property role="IQ2nx" value="6199913431426552287" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7w" role="1TKVEl">
-      <property role="TrG5h" value="value" />
-      <property role="IQ2nx" value="6199913431426552288" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7x" role="1TKVEi">
-      <property role="20kJfa" value="channel" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6199913431426552289" />
-      <ref role="20lvS9" node="5oax6Fmm_6z" resolve="Channel" />
-    </node>
-    <node concept="1TJgyj" id="5oax6Fmm_7y" role="1TKVEi">
-      <property role="20kJfa" value="items" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6199913431426552290" />
-      <ref role="20lvS9" node="5oax6Fmm_6$" resolve="Item" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6D">
-    <property role="TrG5h" value="Enclosure" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552233" />
-    <node concept="1TJgyi" id="5oax6Fmm_7z" role="1TKVEl">
-      <property role="TrG5h" value="url" />
-      <property role="IQ2nx" value="6199913431426552291" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7$" role="1TKVEl">
-      <property role="TrG5h" value="lenght" />
-      <property role="IQ2nx" value="6199913431426552292" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7_" role="1TKVEl">
-      <property role="TrG5h" value="type" />
-      <property role="IQ2nx" value="6199913431426552293" />
+  <node concept="PlHQZ" id="4zX0u0frqqi">
+    <property role="TrG5h" value="Person" />
+    <property role="EcuMT" value="5259362001681753746" />
+    <node concept="1TJgyi" id="4zX0u0frqqu" role="1TKVEl">
+      <property role="TrG5h" value="fullName" />
+      <property role="IQ2nx" value="5259362001681753758" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5oax6Fmm_6E">
-    <property role="TrG5h" value="Source" />
+  <node concept="1TIwiD" id="4zX0u0frqqj">
+    <property role="TrG5h" value="Association" />
     <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="6199913431426552234" />
-    <node concept="1TJgyi" id="5oax6Fmm_7A" role="1TKVEl">
-      <property role="TrG5h" value="url" />
-      <property role="IQ2nx" value="6199913431426552294" />
+    <property role="EcuMT" value="5259362001681753747" />
+    <node concept="1TJgyi" id="4zX0u0frqqv" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <property role="IQ2nx" value="5259362001681753759" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="5oax6Fmm_7B" role="1TKVEl">
-      <property role="TrG5h" value="value" />
-      <property role="IQ2nx" value="6199913431426552295" />
+    <node concept="1TJgyj" id="4zX0u0frqqw" role="1TKVEi">
+      <property role="20kJfa" value="committee" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="5259362001681753760" />
+      <ref role="20lvS9" node="4zX0u0frqqk" resolve="Committee" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqqk">
+    <property role="TrG5h" value="Committee" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753748" />
+    <node concept="1TJgyi" id="4zX0u0frqqx" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <property role="IQ2nx" value="5259362001681753761" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqqy" role="1TKVEi">
+      <property role="20kJfa" value="townHalls" />
+      <property role="IQ2ns" value="5259362001681753762" />
+      <ref role="20lvS9" node="4zX0u0frqqq" resolve="TownHall" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqql">
+    <property role="TrG5h" value="Community" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753749" />
+    <node concept="1TJgyi" id="4zX0u0frqqz" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <property role="IQ2nx" value="5259362001681753763" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqq$" role="1TKVEi">
+      <property role="20kJfa" value="townHalls" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="5259362001681753764" />
+      <ref role="20lvS9" node="4zX0u0frqqq" resolve="TownHall" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqq_" role="1TKVEi">
+      <property role="20kJfa" value="associations" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="5259362001681753765" />
+      <ref role="20lvS9" node="4zX0u0frqqj" resolve="Association" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqqA" role="1TKVEi">
+      <property role="20kJfa" value="persons" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="5259362001681753766" />
+      <ref role="20lvS9" node="4zX0u0frqqi" resolve="Person" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqqm">
+    <property role="TrG5h" value="District" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753750" />
+    <node concept="1TJgyi" id="4zX0u0frqqB" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <property role="IQ2nx" value="5259362001681753767" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqqC" role="1TKVEi">
+      <property role="20kJfa" value="facilities" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="5259362001681753768" />
+      <ref role="20lvS9" node="4zX0u0frqqh" resolve="Facility" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqqn">
+    <property role="TrG5h" value="Man" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753751" />
+    <node concept="PrWs8" id="4zX0u0frqqD" role="PzmwI">
+      <ref role="PrY4T" node="4zX0u0frqqi" resolve="Person" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqqo">
+    <property role="TrG5h" value="OrdinaryFacility" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753752" />
+    <node concept="PrWs8" id="4zX0u0frqqE" role="PzmwI">
+      <ref role="PrY4T" node="4zX0u0frqqh" resolve="Facility" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqqp">
+    <property role="TrG5h" value="SpecialFacility" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753753" />
+    <node concept="PrWs8" id="4zX0u0frqqF" role="PzmwI">
+      <ref role="PrY4T" node="4zX0u0frqqh" resolve="Facility" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqqq">
+    <property role="TrG5h" value="TownHall" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753754" />
+    <node concept="1TJgyi" id="4zX0u0frqqG" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <property role="IQ2nx" value="5259362001681753772" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqqH" role="1TKVEi">
+      <property role="20kJfa" value="committee" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="5259362001681753773" />
+      <ref role="20lvS9" node="4zX0u0frqqk" resolve="Committee" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqqI" role="1TKVEi">
+      <property role="20kJfa" value="districts" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="5259362001681753774" />
+      <ref role="20lvS9" node="4zX0u0frqqm" resolve="District" />
+    </node>
+    <node concept="1TJgyj" id="4zX0u0frqqJ" role="1TKVEi">
+      <property role="20kJfa" value="workers" />
+      <property role="IQ2ns" value="5259362001681753775" />
+      <ref role="20lvS9" node="4zX0u0frqqi" resolve="Person" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zX0u0frqqr">
+    <property role="TrG5h" value="Woman" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="5259362001681753755" />
+    <node concept="PrWs8" id="4zX0u0frqqK" role="PzmwI">
+      <ref role="PrY4T" node="4zX0u0frqqi" resolve="Person" />
     </node>
   </node>
 </model>
