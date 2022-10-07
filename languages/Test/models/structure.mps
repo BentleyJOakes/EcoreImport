@@ -40,168 +40,224 @@
       </concept>
     </language>
   </registry>
-  <node concept="PlHQZ" id="4zX0u0frqqh">
-    <property role="TrG5h" value="Facility" />
-    <property role="EcuMT" value="5259362001681753745" />
-    <node concept="1TJgyi" id="4zX0u0frqqs" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="5259362001681753756" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="4zX0u0frqqt" role="1TKVEi">
-      <property role="20kJfa" value="members" />
-      <property role="IQ2ns" value="5259362001681753757" />
-      <ref role="20lvS9" node="4zX0u0frqqi" resolve="Person" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="4zX0u0frqqi">
-    <property role="TrG5h" value="Person" />
-    <property role="EcuMT" value="5259362001681753746" />
-    <node concept="1TJgyi" id="4zX0u0frqqu" role="1TKVEl">
-      <property role="TrG5h" value="fullName" />
-      <property role="IQ2nx" value="5259362001681753758" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4zX0u0frqqj">
-    <property role="TrG5h" value="Association" />
+  <node concept="1TIwiD" id="5_3iKJeh04">
+    <property role="TrG5h" value="Country" />
     <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753747" />
-    <node concept="1TJgyi" id="4zX0u0frqqv" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="5259362001681753759" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <property role="EcuMT" value="100501050107695108" />
+    <node concept="PrWs8" id="5_3iKJeh0e" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="4zX0u0frqqw" role="1TKVEi">
-      <property role="20kJfa" value="committee" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="5259362001681753760" />
-      <ref role="20lvS9" node="4zX0u0frqqk" resolve="Committee" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4zX0u0frqqk">
-    <property role="TrG5h" value="Committee" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753748" />
-    <node concept="1TJgyi" id="4zX0u0frqqx" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="5259362001681753761" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="4zX0u0frqqy" role="1TKVEi">
-      <property role="20kJfa" value="townHalls" />
-      <property role="IQ2ns" value="5259362001681753762" />
-      <ref role="20lvS9" node="4zX0u0frqqq" resolve="TownHall" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4zX0u0frqql">
-    <property role="TrG5h" value="Community" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753749" />
-    <node concept="1TJgyi" id="4zX0u0frqqz" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="5259362001681753763" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="4zX0u0frqq$" role="1TKVEi">
-      <property role="20kJfa" value="townHalls" />
+    <node concept="1TJgyj" id="5_3iKJeh0f" role="1TKVEi">
+      <property role="20kJfa" value="families" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="IQ2ns" value="5259362001681753764" />
-      <ref role="20lvS9" node="4zX0u0frqqq" resolve="TownHall" />
+      <property role="IQ2ns" value="100501050107695119" />
+      <ref role="20lvS9" node="5_3iKJeh05" resolve="Family" />
     </node>
-    <node concept="1TJgyj" id="4zX0u0frqq_" role="1TKVEi">
-      <property role="20kJfa" value="associations" />
+    <node concept="1TJgyj" id="5_3iKJeh0g" role="1TKVEi">
+      <property role="20kJfa" value="cities" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695120" />
+      <ref role="20lvS9" node="5_3iKJeh09" resolve="City" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0h" role="1TKVEi">
+      <property role="20kJfa" value="companies" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="IQ2ns" value="5259362001681753765" />
-      <ref role="20lvS9" node="4zX0u0frqqj" resolve="Association" />
-    </node>
-    <node concept="1TJgyj" id="4zX0u0frqqA" role="1TKVEi">
-      <property role="20kJfa" value="persons" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="IQ2ns" value="5259362001681753766" />
-      <ref role="20lvS9" node="4zX0u0frqqi" resolve="Person" />
+      <property role="IQ2ns" value="100501050107695121" />
+      <ref role="20lvS9" node="5_3iKJeh0b" resolve="Company" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4zX0u0frqqm">
-    <property role="TrG5h" value="District" />
+  <node concept="1TIwiD" id="5_3iKJeh05">
+    <property role="TrG5h" value="Family" />
     <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753750" />
-    <node concept="1TJgyi" id="4zX0u0frqqB" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="5259362001681753767" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <property role="EcuMT" value="100501050107695109" />
+    <node concept="1TJgyj" id="5_3iKJeh0i" role="1TKVEi">
+      <property role="20kJfa" value="fathers" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695122" />
+      <ref role="20lvS9" node="5_3iKJeh06" resolve="Parent" />
     </node>
-    <node concept="1TJgyj" id="4zX0u0frqqC" role="1TKVEi">
-      <property role="20kJfa" value="facilities" />
+    <node concept="1TJgyj" id="5_3iKJeh0j" role="1TKVEi">
+      <property role="20kJfa" value="mothers" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695123" />
+      <ref role="20lvS9" node="5_3iKJeh06" resolve="Parent" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0k" role="1TKVEi">
+      <property role="20kJfa" value="daughters" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="IQ2ns" value="5259362001681753768" />
-      <ref role="20lvS9" node="4zX0u0frqqh" resolve="Facility" />
+      <property role="IQ2ns" value="100501050107695124" />
+      <ref role="20lvS9" node="5_3iKJeh07" resolve="Child" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="4zX0u0frqqn">
-    <property role="TrG5h" value="Man" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753751" />
-    <node concept="PrWs8" id="4zX0u0frqqD" role="PzmwI">
-      <ref role="PrY4T" node="4zX0u0frqqi" resolve="Person" />
+    <node concept="1TJgyj" id="5_3iKJeh0l" role="1TKVEi">
+      <property role="20kJfa" value="sons" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695125" />
+      <ref role="20lvS9" node="5_3iKJeh07" resolve="Child" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="4zX0u0frqqo">
-    <property role="TrG5h" value="OrdinaryFacility" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753752" />
-    <node concept="PrWs8" id="4zX0u0frqqE" role="PzmwI">
-      <ref role="PrY4T" node="4zX0u0frqqh" resolve="Facility" />
+    <node concept="1TJgyj" id="5_3iKJeh0m" role="1TKVEi">
+      <property role="20kJfa" value="registeredIn" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="100501050107695126" />
+      <ref role="20lvS9" node="5_3iKJeh08" resolve="Neighborhood" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="4zX0u0frqqp">
-    <property role="TrG5h" value="SpecialFacility" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753753" />
-    <node concept="PrWs8" id="4zX0u0frqqF" role="PzmwI">
-      <ref role="PrY4T" node="4zX0u0frqqh" resolve="Facility" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4zX0u0frqqq">
-    <property role="TrG5h" value="TownHall" />
-    <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753754" />
-    <node concept="1TJgyi" id="4zX0u0frqqG" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="5259362001681753772" />
+    <node concept="1TJgyi" id="5_3iKJeh0n" role="1TKVEl">
+      <property role="TrG5h" value="lastName" />
+      <property role="IQ2nx" value="100501050107695127" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyj" id="4zX0u0frqqH" role="1TKVEi">
-      <property role="20kJfa" value="committee" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="IQ2ns" value="5259362001681753773" />
-      <ref role="20lvS9" node="4zX0u0frqqk" resolve="Committee" />
+  </node>
+  <node concept="1TIwiD" id="5_3iKJeh06">
+    <property role="TrG5h" value="Parent" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="100501050107695110" />
+    <node concept="PrWs8" id="5_3iKJeh0o" role="PzmwI">
+      <ref role="PrY4T" node="5_3iKJeh0c" resolve="Member" />
     </node>
-    <node concept="1TJgyj" id="4zX0u0frqqI" role="1TKVEi">
-      <property role="20kJfa" value="districts" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="IQ2ns" value="5259362001681753774" />
-      <ref role="20lvS9" node="4zX0u0frqqm" resolve="District" />
-    </node>
-    <node concept="1TJgyj" id="4zX0u0frqqJ" role="1TKVEi">
-      <property role="20kJfa" value="workers" />
-      <property role="IQ2ns" value="5259362001681753775" />
-      <ref role="20lvS9" node="4zX0u0frqqi" resolve="Person" />
+    <node concept="1TJgyj" id="5_3iKJeh0p" role="1TKVEi">
+      <property role="20kJfa" value="worksIn" />
+      <property role="IQ2ns" value="100501050107695129" />
+      <ref role="20lvS9" node="5_3iKJeh0b" resolve="Company" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4zX0u0frqqr">
-    <property role="TrG5h" value="Woman" />
+  <node concept="1TIwiD" id="5_3iKJeh07">
+    <property role="TrG5h" value="Child" />
     <property role="19KtqR" value="true" />
-    <property role="EcuMT" value="5259362001681753755" />
-    <node concept="PrWs8" id="4zX0u0frqqK" role="PzmwI">
-      <ref role="PrY4T" node="4zX0u0frqqi" resolve="Person" />
+    <property role="EcuMT" value="100501050107695111" />
+    <node concept="PrWs8" id="5_3iKJeh0q" role="PzmwI">
+      <ref role="PrY4T" node="5_3iKJeh0c" resolve="Member" />
     </node>
+    <node concept="1TJgyj" id="5_3iKJeh0r" role="1TKVEi">
+      <property role="20kJfa" value="goesTo" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="100501050107695131" />
+      <ref role="20lvS9" node="5_3iKJeh0a" resolve="School" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5_3iKJeh08">
+    <property role="TrG5h" value="Neighborhood" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="100501050107695112" />
+    <node concept="PrWs8" id="5_3iKJeh0s" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0t" role="1TKVEi">
+      <property role="20kJfa" value="contains" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695133" />
+      <ref role="20lvS9" node="5_3iKJeh05" resolve="Family" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0u" role="1TKVEi">
+      <property role="20kJfa" value="schools" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695134" />
+      <ref role="20lvS9" node="5_3iKJeh0a" resolve="School" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5_3iKJeh09">
+    <property role="TrG5h" value="City" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="100501050107695113" />
+    <node concept="PrWs8" id="5_3iKJeh0v" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0w" role="1TKVEi">
+      <property role="20kJfa" value="companies" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695136" />
+      <ref role="20lvS9" node="5_3iKJeh0b" resolve="Company" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0x" role="1TKVEi">
+      <property role="20kJfa" value="neighborhoods" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695137" />
+      <ref role="20lvS9" node="5_3iKJeh08" resolve="Neighborhood" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5_3iKJeh0a">
+    <property role="TrG5h" value="School" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="100501050107695114" />
+    <node concept="PrWs8" id="5_3iKJeh0y" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0z" role="1TKVEi">
+      <property role="20kJfa" value="ordinary" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695139" />
+      <ref role="20lvS9" node="5_3iKJeh0d" resolve="Service" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0$" role="1TKVEi">
+      <property role="20kJfa" value="special" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695140" />
+      <ref role="20lvS9" node="5_3iKJeh0d" resolve="Service" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0_" role="1TKVEi">
+      <property role="20kJfa" value="students" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695141" />
+      <ref role="20lvS9" node="5_3iKJeh07" resolve="Child" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5_3iKJeh0b">
+    <property role="TrG5h" value="Company" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="100501050107695115" />
+    <node concept="PrWs8" id="5_3iKJeh0A" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0B" role="1TKVEi">
+      <property role="20kJfa" value="employees" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695143" />
+      <ref role="20lvS9" node="5_3iKJeh06" resolve="Parent" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0C" role="1TKVEi">
+      <property role="20kJfa" value="isIn" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="IQ2ns" value="100501050107695144" />
+      <ref role="20lvS9" node="5_3iKJeh09" resolve="City" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5_3iKJeh0c">
+    <property role="TrG5h" value="Member" />
+    <property role="EcuMT" value="100501050107695116" />
+    <node concept="1TJgyi" id="5_3iKJeh0D" role="1TKVEl">
+      <property role="TrG5h" value="firstName" />
+      <property role="IQ2nx" value="100501050107695145" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0E" role="1TKVEi">
+      <property role="20kJfa" value="family" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="100501050107695146" />
+      <ref role="20lvS9" node="5_3iKJeh05" resolve="Family" />
+    </node>
+    <node concept="1TJgyj" id="5_3iKJeh0F" role="1TKVEi">
+      <property role="20kJfa" value="livesIn" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="100501050107695147" />
+      <ref role="20lvS9" node="5_3iKJeh09" resolve="City" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5_3iKJeh0d">
+    <property role="TrG5h" value="Service" />
+    <property role="19KtqR" value="true" />
+    <property role="EcuMT" value="100501050107695117" />
   </node>
 </model>
 
